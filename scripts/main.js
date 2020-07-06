@@ -8,7 +8,7 @@ let myButton = document.querySelector('button');
 function clickFunction() {
     let mySrc = myImage.getAttribute('src');
     if(mySrc === "images/harry-potter.jpg") {
-      myImage.setAttribute ('src','images/PSV.jpg');
+      myImage.setAttribute ('src','images/PSV-new.jpg');
     } else {
       myImage.setAttribute ('src',"images/harry-potter.jpg");
     }
